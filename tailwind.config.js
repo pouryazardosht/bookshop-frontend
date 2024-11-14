@@ -19,6 +19,9 @@ export default {
         bgColor: "#F7F8F8",
         primaryColor: "#F21055",
       },
+      boxShadow: {
+        pz: "0px 0px 4px 0px rgba(0, 0, 0, 0.1);",
+      },
       fontFamily: {
         vazir: ["vazirmatn", "sans-serif"],
       },
