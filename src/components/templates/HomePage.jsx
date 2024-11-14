@@ -3,7 +3,7 @@ import useTitle from "../../hooks/useTitle"
 function HomePage() {
     useTitle("صفحه اصلی")
     return (
-        <div>سلام</div>
+        <h1 className="">سلام</h1>
     )
 }
 
