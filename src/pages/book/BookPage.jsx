@@ -1,6 +1,6 @@
 import useTitle from "../../hooks/useTitle";
 
-function BookPage({ name, author }) {
+function BookPage({ name }) {
   useTitle(name);
   return <div>BookPage</div>;
 }
