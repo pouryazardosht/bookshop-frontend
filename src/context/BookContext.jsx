@@ -44,7 +44,15 @@ function BookProvider({ children }) {
             "author": "بک سهی",
             "price": 112000,
             "quantity": 7
-        }
+        },
+        {
+            "id": "704ca34f-2c3c-49b4-88e3-a449acce82vb",
+            "title": "کتاب کلیله و دمنه (وزیری چرم)",
+            "summary": "خلاصه قرار میگیرد",
+            "author": "ابوالمعالی نصرالله منشی",
+            "price": 616000,
+            "quantity": 2
+        },
     ]);
     // useEffect(() => {
     //     const fetchBooks = async () => {
