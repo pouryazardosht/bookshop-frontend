@@ -1,7 +1,8 @@
-import useTitle from "../../hooks/useTitle";
+import { useBooks } from "../../context/BookContext";
 
-function BookPage({ name }) {
-  useTitle(name);
+function BookPage() {
+  const { books } = useBooks()
+  console.log(books);
   return <div>BookPage</div>;
 }
 

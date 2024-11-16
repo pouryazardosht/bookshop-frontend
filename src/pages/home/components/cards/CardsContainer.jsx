@@ -10,7 +10,7 @@ function CardsContainer() {
                     <Card key={book.id} book={book} />
                 ))}
             </div>
-        </div>
+        </div >
     )
 }
 
