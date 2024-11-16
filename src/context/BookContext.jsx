@@ -1,5 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
-import api from "../services/config";
+import { createContext, useContext, useState } from "react";
 
 const BookContext = createContext()
 
