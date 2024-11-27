@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import cartIcon from '../../../../assets/icons/shopping-cart.svg'
 import bookImg from "../../../../assets/images/book-img.png"
 function Card({ book }) {
