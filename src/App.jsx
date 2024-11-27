@@ -7,9 +7,9 @@ function App() {
   return (
     <BookProvider>
       <Routes>
-        <Route index element={<Navigate to="/books" />} />
-        <Route path="/books/" element={<HomePage />} />
-        <Route path="/books/:id" element={<BookPage />} />
+        <Route index element={<Navigate to="books" />} />
+        <Route path="books" element={<HomePage />} />
+        <Route path="books/:id" element={<BookPage />} />
       </Routes>
     </BookProvider >
   )
